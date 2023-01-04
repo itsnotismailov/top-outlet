@@ -1,0 +1,39 @@
+.product {
+  border: 1px solid black;
+  .span {
+    margin-left: 10px;
+    color: rgb(68, 68, 227);
+    cursor: pointer;
+  }
+  .product-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .detail-info {
+    margin-top: 10px;
+    .description {
+      width: 365px;
+    }
+    h4 {
+      margin-left: 10px;
+
+      span {
+        font-weight: 700;
+        font-size: 25px;
+      }
+    }
+    .colored {
+      display: flex;
+      gap: 5px;
+      div {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+      }
+    }
+  }
+}

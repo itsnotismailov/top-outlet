@@ -1,0 +1,50 @@
+nav {
+  height: 87px;
+  background-color: black;
+  display: flex;
+  width: 390px;
+  border: 1px solid black;
+
+  .burger {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .two-items {
+    display: flex;
+    align-items: center;
+    gap: 91px;
+
+    .logo {
+      display: flex;
+      cursor: pointer;
+
+      h3 {
+        font-family: "Goldman";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+        text-align: center;
+        width: 110px;
+      }
+
+      img {
+        width: 44px;
+        position: relative;
+        right: 15px;
+      }
+    }
+    .basket {
+      display: flex;
+      margin-right: 10px;
+      gap: 14px;
+
+      img {
+        width: 22px;
+        cursor: pointer;
+      }
+    }
+  }
+}

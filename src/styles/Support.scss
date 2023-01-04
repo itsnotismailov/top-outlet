@@ -1,0 +1,99 @@
+.container_block {
+  width: 390px;
+  background: url("../assets/blur.png");
+  margin: auto;
+  overflow-x: hidden;
+  border: 1px solid black;
+  background-size: cover;
+  .modal_window {
+    color: white;
+    margin-top: 23px;
+    border: 1px solid rgba(202, 94, 94, 0.3) -1.79%;
+    width: 350px;
+    height: 166px;
+    border-radius: 20px;
+    background: linear-gradient(
+      103.4deg,
+      rgba(202, 94, 94, 0.3) -1.79%,
+      rgba(255, 150, 150, 0.3) 112.92%
+    );
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    left: 21px;
+    .que {
+      margin-left: 15px;
+      position: relative;
+      top: 26px;
+    }
+    .smile {
+      position: relative;
+      top: 35px;
+    }
+  }
+  .modal_window h3 {
+    font-family: Goldman;
+    font-weight: 400;
+    position: relative;
+    left: 15px;
+    top: 23px;
+  }
+  .two_modal {
+    margin-top: 43px;
+    background: #ffffff;
+    border: 1px solid white;
+    width: 350px;
+    height: 166px;
+    border-radius: 20px;
+    position: relative;
+    left: 21px;
+    h6 {
+      color: black;
+      margin-top: 15px;
+      margin-left: 15px;
+      font-weight: 500;
+    }
+    p {
+      margin-left: 14px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    button {
+      color: white;
+      margin-left: 25px;
+      background-color: #494545;
+      width: 295px;
+      height: 35px;
+      border-radius: 10px;
+      margin-top: -13px;
+    }
+  }
+  .three_modal {
+    margin-top: 42px;
+    background: #ffffff;
+    border: 1px solid white;
+    width: 350px;
+    height: 114px;
+    border-radius: 20px;
+    position: relative;
+    left: 21px;
+    margin-bottom: 100px;
+  }
+  h5 {
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  p {
+    margin-left: 15px;
+  }
+  img {
+    margin-left: 15px;
+    margin-top: -15px;
+  }
+  span {
+    margin-left: 9px;
+    position: relative;
+    bottom: 5px;
+  }
+}

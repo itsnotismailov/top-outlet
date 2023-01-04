@@ -1,0 +1,19 @@
+.sections {
+  .section {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    h3 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25x;
+      line-height: 19px;
+      color: #000000;
+    }
+    img {
+      width: 106px;
+      margin-left: 110px;
+    }
+  }
+}
